@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 HOLA desde base
 
 
 agregando conflicto
+=======
+HOLA desde  base
+haciendo quilombo
+>>>>>>> rama2conflicto
