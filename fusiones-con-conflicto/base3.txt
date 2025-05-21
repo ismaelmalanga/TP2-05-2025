@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 hola de base 3
 
 22234455
+=======
+hola base 3
+
+123213
+>>>>>>> rama2conflicto3
