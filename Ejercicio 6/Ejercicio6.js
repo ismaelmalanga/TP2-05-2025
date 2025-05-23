@@ -5,9 +5,7 @@ const altura = document.getElementById("altura")
 const correo = document.getElementById("correo")
 const mensaje = document.getElementById("mensaje")
 
-
-function validar (){
-
+function validar () {
     let errores = "";
 
     if (nombre.value === "" || nombre.value.length > 50) {
@@ -25,11 +23,10 @@ function validar (){
     }
 
     if (errores === "") {
-        mensaje.innerHTML = "los datos son validos, formulario enviado";
-        mensaje.style.color = "green";
+        mensaje.textContent = "los datos son validos, formulario enviado";
+        mensaje.className = "valido";
     } else {
-        mensaje.innerHTML = errores;
-        mensaje.style.color = "red";
+        mensaje.textContent = errores;
+        mensaje.className = "error";
     }
-
 }
