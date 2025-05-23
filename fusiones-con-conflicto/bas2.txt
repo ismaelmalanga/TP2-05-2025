@@ -1,7 +1,4 @@
 hola desde base 2 
-<<<<<<< HEAD
 
 22
-=======
 3444
->>>>>>> rama2conflicto2
